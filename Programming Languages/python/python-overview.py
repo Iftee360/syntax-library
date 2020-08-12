@@ -98,29 +98,40 @@ print( str(True) )
 print( int("50") + int("70") )
 
 
-### Strings
+### STRINGS
 
 
 greeting = "Hello"
 #indexes:   01234
 
 print( len(greeting) )
-print( greeting[0] )
-print( greeting[-1] )
-print( greeting.find("llo") )
+print( greeting[0] )     # will return H
+print( greeting[1] )     # will return e
+
+#counting backwards with (-) sign
+print( greeting[-1] )    # will return o
+print( greeting[-2] )    # will return l
+
+#String Find : we can see if a string contains another string
+#if its there then it will print out the index position it starts with, like
+print( greeting.find("llo") )    # will return 2
+#if the string isn't there it'll return -1 or any other negative value
 print( greeting.find("z") )
-print( greeting[2:] )
-print( greeting[2:3] )
+#SUBSTRING : we can grab a part of a string
+print( greeting[2:] )      #grabs everything after index position 2  aka "llo"
+print( greeting[2:4] )      #grabs values from index position 2 till 4 aka "ll"
+
 
 
 ### Numbers
 
 
 print( 2 * 3 )       # Basic Arithmetic: +, -, /, *
-print( 2**3 )       # Basic Arithmetic: +, -, /, *
-print( 10 % 3 )      # Modulus Op. : returns remainder of 10/3
+print( 2**3 )        # 2^3
+print( 10 % 3 )      # Modulus Op. : returns remainder of 10/3  aka  1
 print( 1 + 2 * 3 )   # order of operations
 print(10 / 3.0)      # int's and doubles
+# if int is divided by doubles, it returns a double
 
 
 num = 10
