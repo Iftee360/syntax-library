@@ -1,7 +1,7 @@
 # Python Syntax
-
+(More to be added)
 [ Note: I just made a markdown version of the official blog post made by the,
-[DATAFLAIR TEAM](https://data-flair.training/blogs/author/dfteam4/) · UPDATED · DECEMBER 10, 2019 ]
+[DATAFLAIR TEAM](https://data-flair.training/blogs/author/dfteam4/) · DECEMBER 10, 2019 ]
 
 ## What is Python Syntax?
 
@@ -79,7 +79,7 @@ You can also use it to distribute a statement without a string across lines.
 
 **Output:**
 
-    10
+10
 
 #### 2.2. Put the String in Triple Quotes
 
@@ -88,8 +88,8 @@ You can also use it to distribute a statement without a string across lines.
 
 **Output:**
 
-    Hi
-    how are you?
+Hi
+how are you?
 
 However, you can’t use backslashes inside a docstring for statements that aren’t a string.
 
@@ -99,7 +99,8 @@ However, you can’t use backslashes inside a docstring for statements that aren
 
 **Output:**
 
-    ‘b=10’
+‘b=10’
+
 
     1. **print**(b)
 
@@ -131,7 +132,7 @@ A docstring is a documentation string. As a comment, this Python [Syntax](https:
 
 **Output:**
 
-Hi
+  Hi
 
 *Any queries yet in Python Syntax Tutorial? If yes, mention in the comment section. DataFlair’s team is here to help you.*
 
@@ -145,8 +146,9 @@ Since Python doesn’t use curly braces to delimit blocks of code, this Python S
 
 **Output:**
 
-2 is the bigger person
-But 1 is worthy too
+  2 is the bigger person
+  But 1 is worthy too
+
 
 You can indent using a number of tabs or spaces, or a combination of those. But remember, indent statements under one block of code with the same amount of tabs and spaces.
 
@@ -156,7 +158,8 @@ You can indent using a number of tabs or spaces, or a combination of those. But 
 
 **Output:**
 
-SyntaxError: unindent does not match any outer indentation level
+  SyntaxError: unindent does not match any outer indentation level
+
 
 ### 6. Python Multiple Statements in One Line
 
@@ -166,7 +169,7 @@ You can also fit in more than one statement on one line. Do this by separating t
 
 **Output:**
 
-    7
+  7
 
 ### 7. Python Quotations
 
@@ -178,7 +181,8 @@ The following string is delimited by single quotes.
 
 **Output:**
 
-We need a chaperone
+  We need a chaperone
+
 
 This string is delimited by double-quotes.
 
@@ -194,7 +198,7 @@ Notice how we used single quotes around the word chaperone in the string? If we 
 
 **Output:**
 
-SyntaxError: invalid syntax
+  SyntaxError: invalid syntax
 
 ### 8. Python Blank Lines
 
@@ -233,14 +237,15 @@ In Python, you don’t define the type of the variable. It is assumed on the bas
 
 **Output:**
 
-10
+  10
+
 
     1. x='Hello'
     2. **print**(x)
 
 **Output:**
 
-Hello
+  Hello
 
 Here, we declared a variable x and assigned it a value of 10. Then we printed its value. Next, we assigned it the value ‘Hello’ and printed it out. So, we see, a variable can hold any type of value at a later instant. Hence, Python is a **dynamically-typed language**.
 
@@ -259,7 +264,7 @@ You can use the % operator to format a string to contain text as well as values 
 
 **Output:**
 
-I just printed 10 pages to the printer HP
+  I just printed 10 pages to the printer HP
 
 #### 11.2. Format Method
 
@@ -269,7 +274,7 @@ The format method allows you to format a string in a similar way. At the places,
 
 **Output:**
 
-I just printed 10 pages to the printer HP
+  I just printed 10 pages to the printer HP
 
 You can also use the method to print out identifiers that match certain values.
 
@@ -277,7 +282,7 @@ You can also use the method to print out identifiers that match certain values.
 
 **Output:**
 
-I just printed 7 pages to the printer HP
+  I just printed 7 pages to the printer HP
 
 #### 11.3. f-strings
 
@@ -287,13 +292,24 @@ If you use an f-string, you just need to mention the identifiers in curly braces
 
 **Output:**
 
-I just printed 10 pages to the printer HP
+  I just printed 10 pages to the printer HP
 
-So, this was all about the Python Syntax tutorial. I hope you liked our explanation.
+
+
+So, this was all about the Python Syntax tutorial. I hope you liked the explanation.
 
 ## Summary
 
-In this Python Syntax tutorial, we learned about the basic Python syntax. We learned about its line structure, multiline statements, comments and docstrings, indentation, and quotations. We also learned about blank lines, identifiers, variables, multiple statements in one line, and string formatters.
+In this Python Syntax tutorial, we learned about the basic Python syntax. We learned about its
+ * line structure,
+ *  multiline statements,
+ *  comments and docstrings,
+ *  indentation, and quotations.
+ *  blank lines,
+ *  identifiers,
+ *  variables,
+ *  multiple statements in one line, and
+ *  string formatters.
 
 ***Time to get yourself acquainted with the next DataFlair’s article, [Python comments, indentations & statements](https://data-flair.training/blogs/python-comment/).***
 
