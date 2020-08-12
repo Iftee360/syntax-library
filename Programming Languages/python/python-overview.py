@@ -32,7 +32,7 @@ Many developers choose to write Python using a specilized integrated development
 
 ```
 print("Hello")
-print("World")      
+print("World")
 print("!")
 ```
 
@@ -49,6 +49,7 @@ Convention says
    by underscores
    ex. my_first_variable
 '''
+
 name = "Iftee"    # Strings
 age = 30         # Integer
 gpa = 3.5         # Decimal
@@ -56,16 +57,24 @@ is_tall = True    # Boolean -> True/False
 
 name = "John"
 
+# concatonate
 print("Your name is " + name)
+# C like
 print("Your name is", name)
 ```
 
 ### Casting and Converting
 
 ```
+#float to integar
 print( int(3.14) )
+
+#integar to float
 print( float(3) )
+#boolean to string
 print( str(True) )
+
+#"string" to number
 print( int("50") + int("70") )
 ```
 
@@ -255,7 +264,7 @@ try:
 except ZeroDivisionError as e:
     print(e)
 except:
-    print("Caught any exception")       
+    print("Caught any exception")
 ```
 
 ### Classes and Objects
