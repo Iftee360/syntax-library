@@ -49,7 +49,7 @@ Convention says
    by underscores
    ex. my_first_variable
 '''
-name = "Mike"    # Strings
+name = "Iftee"    # Strings
 age = 30         # Integer
 gpa = 3.5         # Decimal
 is_tall = True    # Boolean -> True/False
