@@ -14,4 +14,4 @@ except ZeroDivisionError as e:
 except ValueError as v:
     print(v)
 except:
-    print("Sorry, some Error Occured😓")
+    print("Sorry, some Error Occured😓")        #HIGHLY Un-recommended (doesn't catch specific errors)
