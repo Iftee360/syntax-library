@@ -1,12 +1,13 @@
 
 class Car:
 
-    # Constructor: constructs the required attributes of a class,
-    # self parameter is mendatory, which refers to the craeted object. Except that others are parameters you require
+    # Constructor: a method that gets called when an instance of a Class is created
+    # 'self' parameter is mendatory, which refers to the craeted object. Except that others are parameters you require
 
     def __init__ (self, model, cost):            #initialize constructor
         self.model = model
         self.cost = cost
+
 
     # Method: a function inside of a Class
 
