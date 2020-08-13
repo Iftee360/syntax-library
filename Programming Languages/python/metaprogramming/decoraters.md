@@ -44,7 +44,7 @@ Functions can be passed as arguments to another function.
 
 If you have used functions like `map`, `filter` and `reduce` in Python, then you already know about this.
 
-Such functions that take other functions as arguments are also called **higher order functions**. Here is an example of such a function.
+Such functions that take other *functions as arguments* are also called **higher order functions**. Here is an example of such a function.
 
 ```python
 def inc(x):
@@ -69,7 +69,7 @@ We invoke the function as follows.
 2
 ```
 
-Furthermore, a function can return another function.
+Furthermore, a function can **return** another function.
 
 ```python
 def is_called():
@@ -96,7 +96,7 @@ Hello
 
 Here, `is_returned()` is a nested function which is defined and returned each time we call `is_called()`.
 
-Finally, we must know about C[losures in Python](https://www.programiz.com/python-programming/closure).
+Finally, we must know about [Closures in Python](https://www.programiz.com/python-programming/closure).
 
 ------
 
